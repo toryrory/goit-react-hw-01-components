@@ -6,6 +6,8 @@ margin: auto;
     width: 400px;
     background-color: azure;
     border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 7px 9px 17px -4px rgba(0,0,0,0.75);
 `
 export const Description = styled.div`
     text-align: center;
@@ -36,6 +38,7 @@ export const StatsList = styled.ul`
 border-top: 2px solid black;
     display: flex;
     justify-content: center;
+    background-color: #92c1ea;
 `
 export const StatsItem = styled.li`
     display: flex;
